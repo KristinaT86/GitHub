@@ -1,0 +1,16 @@
+  125  git
+  126  git clone git@github.com:KristinaT86/GitHub.git
+  127  cd GitHub
+  128  git branch feature
+  129  git checkout feature
+  130  git add README.md .gitignore
+  131  git commit -m " Добавлены изменения к README.md and .gitignore"
+  132  git push origin feature
+  133  git commit --amend --no-edit
+  134  git log
+  135  git push --force origin feature
+  136  git log
+  137  git checkout main
+  138  git merge feature
+  139  history
+  140  history | tail -55
